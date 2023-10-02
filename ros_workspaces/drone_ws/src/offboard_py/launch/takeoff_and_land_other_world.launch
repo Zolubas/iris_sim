@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Add our project workspace to Gazebo index to load custom models -->
+  	<env name="GAZEBO_RESOURCE_PATH" value="$(find offboard_py)"/>
+  	<env name="GAZEBO_MODEL_PATH" value="$(find offboard_py)/models"/>
+
+	<!-- Include the MAVROS node with SITL and Gazebo -->
+	<include file="$(find px4)/launch/mavros_posix_sitl.launch">
+		<arg name="world" default="$(find mavlink_sitl_gazebo)/worlds/baylands.world"/>
+	</include>
+
+	<!-- Our node to control the drone -->
+	<node pkg="offboard_py" type="takeoff_land.py" name="takeoff_land" required="true" output="screen" />
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/q2_A.dir/src/q2_A.cpp.o  -o /home/user/ros_workspaces/drone_ws/devel/.private/p1_psi3442/lib/p1_psi3442/q2_A 

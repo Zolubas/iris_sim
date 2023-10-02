@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/user/ros_workspaces/drone_ws/devel/.private/iris_sim/setup.sh

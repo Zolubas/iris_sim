@@ -1,0 +1,6 @@
+devel_space: /home/user/ros_workspaces/drone_ws/devel
+install: false
+install_space: /home/user/ros_workspaces/drone_ws/install
+profile: default
+source_space: /home/user/ros_workspaces/drone_ws/src
+workspace: /home/user/ros_workspaces/drone_ws

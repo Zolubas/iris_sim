@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target q2_A[0m
+[35m[1mScanning dependencies of target q3[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/q2_A.dir/src/q2_A.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/q3.dir/src/q3.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/user/ros_workspaces/drone_ws/devel/.private/p1_psi3442/lib/p1_psi3442/q3[0m
+[ 50%] [32m[1mLinking CXX executable /home/user/ros_workspaces/drone_ws/devel/.private/p1_psi3442/lib/p1_psi3442/q2_A[0m
+[ 66%] Built target q3
+[ 66%] Built target q2_A
+[35m[1mScanning dependencies of target q2_B[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/q2_B.dir/src/q2_B.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/user/ros_workspaces/drone_ws/devel/.private/p1_psi3442/lib/p1_psi3442/q2_B[0m
+[100%] Built target q2_B
